@@ -152,9 +152,48 @@
 	font-weight: 300;
 }
 
+span{
+	display: block;
+}
+/*About Us*/
+.about-us{
+	width: 100%;
+	padding: 80px 4%;
+	background-color: #212529;
+}
+
+.text-about{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	color: #CCC;
 
 
+}
 
+.text-about span{
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.text-about h3{
+	font-size: 1.8em;
+	margin-bottom: 60px;
+	font-weight: 400;
+}
+.text-about p{
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+.text-about span.conv{
+	font-size: 16px;
+	line-height: 30px;
+}
+.img-about{
+	display: none;
+}
 
 
 
@@ -268,7 +307,7 @@
 
 	.title-tex{
 		width: 70%;
-		margin-bottom: 70px;
+		margin-bottom: 0px;
 		padding: 0 100px;
 	}
 
@@ -283,4 +322,44 @@
 	.article-ser:nth-child(4){
 		margin-right: 0%;
 	}
+
+	/*ABOUT US*/
+
+	.about-us{
+	width: 100%;
+	height: 90vh;
+	padding: 0px 0;
+
+}
+.cont-about{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.img-about{
+	background-image: url('../img/about/about.png');
+	background-size: cover;
+	width: 50%;
+	height: 100%;
+	display: block;
+}
+
+.text-about{
+	width: 50%;
+	height: 100%;
+	background-color: #212529;
+	padding: 150px 120px 150px 120px;
+}
+
+.text-about h3{
+	font-size: 2.3em;
+}
+
+.text-about button{
+	width: 150px;
+}
+
+.text-about span.conv{
+	font-size: 1.2em;
+}
 }
