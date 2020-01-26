@@ -555,7 +555,62 @@ footer{
 }
 /* SMALL DEVICES - TABLETS*/
 @media screen and (min-width: 768px) {
+	.slide h2{
+		font-size: 3.2em;
+		margin-bottom: 30px;
+	}
 
+	.slide .btn{
+		max-width: 300px;
+	}
+	.service .serv-cont{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.title-tex{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	.article-ser{
+		width: 32%;
+		padding: 20px 0;
+	}
+
+	.about-us .btn{
+		max-width: 300px;
+	}
+	.cont-img img{
+		height: 400px;
+	}
+	.how-work{
+		height: 40vh;
+	}
+
+	.container-team{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.container-team article{
+		width: 47%;
+	}
+
+	.comente{
+		display: flex;
+		align-items: center;
+	}
+
+	.cont-comente p{
+		font-size: 1.7em;
+	}
+	
+	.div-footer{
+		width: 30%;
+		margin: 0 auto;
+	}
 }
 /* MEDIUM DEVICES - TABLETS & DESKTOPS*/
 @media screen and (min-width: 960px) {
@@ -659,6 +714,7 @@ footer{
 		width: 70%;
 		margin-bottom: 0px;
 		padding: 0 100px;
+		margin:  0 auto;
 	}
 
 	.title-tex h3{
