@@ -1,0 +1,1 @@
+https://sass-guidelin.es/pt/#web-design-responsivo-rwd-e-breakpoints
